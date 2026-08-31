@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Quiz Master - Modern solutions for smart learning and interactive quizzes. Test your knowledge, track your progress, and master new subjects.">
+  <title>Quiz Master - Modern Learning & Interactive Quiz App</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/icon.jpg">
+  
+  <!-- Remix Icons CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container">
+      <a href="#" class="nav-brand">
+        <div class="brand-icon">
+          <img src="assets/icon.jpg" alt="Quiz Master Logo" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;">
+        </div>
+        <span>Quiz Master</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#features" class="nav-link">Features and services</a>
+        <a href="#how-it-works" class="nav-link">How it works</a>
+        <a href="#download" class="nav-link">Download</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://www.bdappsdigitalapps.com/NADB26141/quizmaster2/quizmaster.apk" download="quizmaster.apk" class="btn btn-primary" id="headerDownloadBtn">
+          <i class="ri-download-line"></i> Download
+        </a>
+      </div>
+
+      <button class="mobile-menu-btn" aria-label="Toggle menu">
+        <i class="ri-menu-line"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="platform-badge">
+            <i class="ri-android-line"></i> Android App &nbsp;•&nbsp; For Robi & Cirkle Users Only
+          </div>
+          <h1>Modern solutions <span class="text-gradient">for smart learning,</span> the learner's trusted friend</h1>
+          <p class="hero-subtitle">
+            Quiz Master is an interactive Android application. Accurate knowledge testing, detailed score analytics, category quizzes, and all tools you need to master your subjects.
+          </p>
+          <div class="hero-actions">
+            <a href="https://www.bdappsdigitalapps.com/NADB26141/quizmaster2/quizmaster.apk" download="quizmaster.apk" class="btn btn-primary" id="heroDownloadBtn">
+              <i class="ri-download-cloud-2-line"></i> Download Android App (.apk)
+            </a>
+            <a href="#features" class="btn btn-secondary">
+              <i class="ri-play-circle-line"></i> Explore Features
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-mockup-wrapper">
+          <!-- App Icon Badge -->
+          <div class="app-icon-badge">
+            <img src="assets/icon.jpg" alt="Quiz Master App Icon" class="app-icon-img">
+            <div class="app-icon-info">
+              <span class="app-icon-name">Quiz Master</span>
+              <span class="app-icon-rating">⭐ 4.8 &nbsp;•&nbsp; Free Download</span>
+            </div>
+          </div>
+
+          <div class="phone-mockup">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div class="mockup-app-header">
+                <div class="mockup-header-top">
+                  <span><i class="ri-code-box-line"></i> Technology Quiz</span>
+                  <span class="timer-badge">00:45</span>
+                </div>
+                <div class="mockup-progress-bar">
+                  <div class="mockup-progress-fill"></div>
+                </div>
+              </div>
+
+              <div class="mockup-quiz-card">
+                <div class="mockup-question">
+                  Q3. What is the primary purpose of Flutter's setState() method?
+                </div>
+
+                <div class="mockup-options">
+                  <div class="mockup-option" data-correct="false">
+                    <span class="option-badge">A</span>
+                    <span>To fetch data from backend API</span>
+                  </div>
+                  <div class="mockup-option" data-correct="true">
+                    <span class="option-badge">B</span>
+                    <span>To notify framework to rebuild UI</span>
+                  </div>
+                  <div class="mockup-option" data-correct="false">
+                    <span class="option-badge">C</span>
+                    <span>To compile Dart code into Native</span>
+                  </div>
+                  <div class="mockup-option" data-correct="false">
+                    <span class="option-badge">D</span>
+                    <span>To manage local SQL database</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section id="features" class="features-section">
+      <div class="container">
+        <div class="section-title-wrapper">
+          <h2>Our key features</h2>
+          <p class="section-subtitle">
+            Quiz Master makes your learning easier and smarter through modern technology
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Feature 1 -->
+          <div class="feature-card card-cyan">
+            <div class="feature-icon-box feature-icon-cyan">
+              <i class="ri-compass-3-line"></i>
+            </div>
+            <h3>Diverse Categories</h3>
+            <p>Comprehensive quiz sets across Technology, Science, History, and General Knowledge tailored for all skill levels.</p>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="feature-card card-purple">
+            <div class="feature-icon-box feature-icon-purple">
+              <i class="ri-bar-chart-box-line"></i>
+            </div>
+            <h3>Performance Analytics</h3>
+            <p>Detailed score breakdowns, accuracy rates, and history logs to track your learning journey over time.</p>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="feature-card card-blue">
+            <div class="feature-icon-box feature-icon-blue">
+              <i class="ri-pulse-line"></i>
+            </div>
+            <h3>Instant Feedback</h3>
+            <p>Get immediate answer validation and detailed explanations to reinforce your knowledge instantly.</p>
+          </div>
+
+          <!-- Feature 4 -->
+          <div class="feature-card card-gold">
+            <div class="feature-icon-box feature-icon-gold">
+              <i class="ri-contrast-2-line"></i>
+            </div>
+            <h3>Dual Theme Support</h3>
+            <p>Sleek Light and Dark modes tailored for comfortable daytime study and eye-friendly late-night revisions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How Does It Work Section -->
+    <section id="how-it-works" class="how-it-works-section">
+      <div class="container">
+        <div class="section-title-wrapper">
+          <h2>How does it work?</h2>
+          <p class="section-subtitle">
+            Start your smart learning in 3 easy steps
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          <!-- Step 1 -->
+          <div class="step-card">
+            <div class="step-number-badge">1</div>
+            <h3>Download Android App</h3>
+            <p>Download the Quiz Master Android app (.apk) on your mobile device.</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card">
+            <div class="step-number-badge">2</div>
+            <h3>Subscribe with Mobile</h3>
+            <p>Enter your Robi or Cirkle mobile number and confirm the OTP verification code.</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card">
+            <div class="step-number-badge">3</div>
+            <h3>Track & Master</h3>
+            <p>Complete quizzes, earn high scores, and watch your skills improve continuously.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing & Subscription Section -->
+    <section id="pricing" class="pricing-section">
+      <div class="container">
+        <div class="pricing-card">
+          <div class="price-amount">৳2.78 <span class="price-period">/day</span></div>
+          <p class="price-notice">Daily charge is 2.78 BDT (including VAT, SD & SC). For Robi and Cirkle users only. Unsubscribe at any time.</p>
+          <div class="pricing-action">
+            <button class="btn btn-purple-glow" id="startNowBtn">Start now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- App Download CTA Banner Section with Charge Notice -->
+    <section id="download" class="cta-banner">
+      <div class="container">
+        <div class="cta-card cta-card-blue">
+          <h2>Start your smart learning now</h2>
+          <p class="cta-subtitle">Expand your knowledge and master new skills every day with Quiz Master</p>
+          <div class="cta-button-wrapper">
+            <a href="https://www.bdappsdigitalapps.com/NADB26141/quizmaster2/quizmaster.apk" download="quizmaster.apk" class="btn btn-download-white" id="downloadBtn">
+              <i class="ri-download-line"></i> Download
+            </a>
+          </div>
+          <p class="charge-notice">Daily charge is 2.78 BDT (including VAT, SD & SC). For Robi and Cirkle users only.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Quiz Master</h3>
+          <p>The ultimate smart learning and interactive quiz platform designed for continuous knowledge improvement.</p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#pricing">Subscription</a></li>
+            <li><a href="#download">Download</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Science & Nature</a></li>
+            <li><a href="#">World History</a></li>
+            <li><a href="#">General Knowledge</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">GitHub Repository</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Contact Support</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Quiz Master App. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BDApps Subscription Modal Popup (Matching Image 2) -->
+  <div id="subscriptionModal" class="modal-overlay">
+    <div class="modal-card subscribe-modal-card">
+      <div class="modal-body text-center">
+        <div id="stepPhone" class="modal-step active">
+          <h3 class="subscribe-title">Subscribe</h3>
+          <p class="subscribe-subtitle">Enter your Robi or Cirkle number.</p>
+          <div class="subscribe-input-wrapper">
+            <input type="tel" id="msisdn" placeholder="018XXXXXXXX" maxlength="11" class="subscribe-input">
+          </div>
+          <button id="sendOtpBtn" class="btn btn-purple-block">Send OTP</button>
+          <div class="go-back-wrapper">
+            <a href="#" id="modalGoBack" class="go-back-link">Go back</a>
+          </div>
+        </div>
+
+        <div id="stepOtp" class="modal-step">
+          <h3 class="subscribe-title">Enter OTP</h3>
+          <p class="subscribe-subtitle">Enter the OTP sent to your mobile number.</p>
+          <div class="subscribe-input-wrapper">
+            <input type="text" id="otp" placeholder="123456" maxlength="6" class="subscribe-input text-center">
+          </div>
+          <button id="verifyOtpBtn" class="btn btn-purple-block">Confirm & Subscribe</button>
+          <div class="go-back-wrapper">
+            <a href="#" id="otpGoBack" class="go-back-link">Go back</a>
+          </div>
+        </div>
+
+        <div id="stepSuccess" class="modal-step text-center">
+          <i class="ri-checkbox-circle-fill text-success" style="font-size: 3.5rem; color: #8b5cf6;"></i>
+          <h3 class="subscribe-title" style="margin-top: 12px;">Subscribed!</h3>
+          <p class="subscribe-subtitle">Welcome to Quiz Master Premium access.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Download Verification Modal Popup (Matching User Screenshot) -->
+  <div id="downloadModal" class="modal-overlay">
+    <div class="modal-card subscribe-modal-card">
+      <div class="modal-body text-center">
+        <div id="dlStepPhone" class="modal-step active">
+          <h3 class="subscribe-title">Download the app</h3>
+          <p class="subscribe-subtitle">Enter your Robi/Cirkle number for verification.</p>
+          <div class="subscribe-input-wrapper">
+            <input type="tel" id="dlMsisdn" placeholder="018XXXXXXXX" maxlength="11" class="subscribe-input">
+          </div>
+          <button id="verifyDownloadBtn" class="btn btn-purple-block">Verify and download</button>
+          <div class="go-back-wrapper">
+            <a href="#" id="dlGoBack" class="go-back-link">Go back</a>
+          </div>
+        </div>
+
+        <div id="dlStepOtp" class="modal-step">
+          <h3 class="subscribe-title">Enter OTP</h3>
+          <p class="subscribe-subtitle">Enter the OTP sent for verification.</p>
+          <div class="subscribe-input-wrapper">
+            <input type="text" id="dlOtp" placeholder="123456" maxlength="6" class="subscribe-input text-center">
+          </div>
+          <button id="confirmDownloadBtn" class="btn btn-purple-block">Confirm & Download</button>
+          <div class="go-back-wrapper">
+            <a href="#" id="dlOtpGoBack" class="go-back-link">Go back</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
