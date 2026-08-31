@@ -15,7 +15,7 @@ class CategoryCard extends StatelessWidget {
       child: Card(
         elevation: 2,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-        color: category.color.withOpacity(0.1),
+        color: category.color.withValues(alpha: 0.1),
         child: Padding(
           padding: const EdgeInsets.all(12.0),
           child: Column(

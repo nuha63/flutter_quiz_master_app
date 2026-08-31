@@ -116,14 +116,14 @@ class _QuizScreenState extends State<QuizScreen> {
                               width: isSelected ? 2 : 1,
                             ),
                             backgroundColor: isSelected
-                                ? Theme.of(context).colorScheme.primaryContainer.withOpacity(0.3)
+                                ? Theme.of(context).colorScheme.primaryContainer.withValues(alpha: 0.3)
                                 : null,
                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                           ),
                           child: Row(
                             children: [
                               Text(
-                                String.fromCharCode(65 + index) + '.',
+                                '${String.fromCharCode(65 + index)}.',
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: isSelected ? Theme.of(context).colorScheme.primary : null,
